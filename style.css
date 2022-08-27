@@ -10,3 +10,18 @@ body {
     background-color: black;
     color: red;
 } 
+
+header {
+    position: fixed;
+    border: 5px solid blue;
+
+}
+
+li {
+    text-align: right:
+}
+
+
+.text-contact {
+    text-align: center;
+}
