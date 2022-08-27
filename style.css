@@ -7,21 +7,35 @@ body {
     position: relative;
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
-    background-color: black;
+    background-color: oldlace;
     color: red;
 } 
 
 header {
-    position: fixed;
+    background-color: darkgray;
+}
+
+header, footer {
+    display: inline;
     border: 5px solid blue;
+    height: 100px;
+    background-color: darkgray;
 
 }
 
 li {
-    text-align: right:
+    text-align: right;
+    display: inline;
+}
+
+ul {
+    display: block;
 }
 
 
 .text-contact {
+    text-align: left;
+}
+.title {
     text-align: center;
 }
