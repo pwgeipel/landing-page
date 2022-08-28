@@ -7,58 +7,79 @@ body {
     position: relative;
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
-    background-color: darkmagenta;
+    background-color: #03462378;
  
    
 } 
 main {
-    padding-top: 110px;
+    padding: 110px;
 }
 
 header, footer {
     display: inline;
     height: 65px;
-    color: red;
-    background-color: lightblue;
+    color: #dcece3;
+    background-color: #557823;
     line-height: 50px;
 }
 footer {
     position: absolute;
     width: 100%;
     text-align: center;font-size: 25px;
+    border-top: 5px solid #462378;
 }
 
 header {
     width: 100%;
     position: fixed;
-    border-bottom: 5px solid blue;
+    border-bottom: 5px solid #462378;
 }
 
 
 ul {
     text-align: right;
-    color: red;
 }
 
 li {
     display: inline;
     list-style-type: none;
-    font-size: 30px;
-    color: red;
+    font-size: 25px;
+    padding: 30px;
 }
 
 a {
-    color: red;
+    color: #dcece3;
+    text-decoration: none;
 }
 
 img {
     display: block;
-    margin: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px;
 }
+
+figure {
+    padding-top: 20px;
+    padding-bottom: 150px;
+}
+
+figcaption {
+    font-size: 125%;
+}
+
+input[type="text"], textarea {
+    background-color : #d1d1d1; 
+  
+}
+
 .text-contact {
     text-align: left;
-    color: red;
 }
 .title {
     text-align: center;
+}
+
+#email {
+    width: 178px;
 }
