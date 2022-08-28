@@ -7,38 +7,57 @@ body {
     position: relative;
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
+    background-color: darkmagenta;
+ 
    
 } 
-
-header {
-    width: 100%;
-    background-color: darkgray;
-    position: fixed;
-
+main {
+    padding-top: 110px;
 }
 
 header, footer {
     display: inline;
-    border: 5px solid blue;
-    height: 100px;
-    background-color: darkgray;
+    height: 65px;
     color: red;
+    background-color: lightblue;
+    line-height: 50px;
+}
+footer {
+    position: absolute;
+    width: 100%;
+    text-align: center;font-size: 25px;
+}
 
+header {
+    width: 100%;
+    position: fixed;
+    border-bottom: 5px solid blue;
+}
+
+
+ul {
+    text-align: right;
+    color: red;
 }
 
 li {
-    text-align: left;
     display: inline;
     list-style-type: none;
+    font-size: 30px;
+    color: red;
 }
 
-ul {
+a {
+    color: red;
+}
+
+img {
     display: block;
+    margin: 20px;
 }
-
-
 .text-contact {
     text-align: left;
+    color: red;
 }
 .title {
     text-align: center;
