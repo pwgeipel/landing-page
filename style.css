@@ -7,12 +7,14 @@ body {
     position: relative;
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
-    background-color: oldlace;
-    color: red;
+   
 } 
 
 header {
+    width: 100%;
     background-color: darkgray;
+    position: fixed;
+
 }
 
 header, footer {
@@ -20,12 +22,14 @@ header, footer {
     border: 5px solid blue;
     height: 100px;
     background-color: darkgray;
+    color: red;
 
 }
 
 li {
-    text-align: right;
+    text-align: left;
     display: inline;
+    list-style-type: none;
 }
 
 ul {
